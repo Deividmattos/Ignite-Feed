@@ -1,15 +1,16 @@
-import { Post } from './assets/Post';
-import './assets/global.css';
-import { Sidebar } from './components/Sidebar';
-import styles from './components/Sidebar.module.css'
-
 import { Header } from './components/Header';
+import { Post } from './assets/Post';
+
+import './assets/global.css';
+import styles from './components/App.module.css'
+import { Sidebar } from './components/Sidebar';
+
 
 
  export function App() {
   return (
     <div>
-       <Header/>
+       <Header />
 
        <div className={styles.wrapper}>
          <aside>
