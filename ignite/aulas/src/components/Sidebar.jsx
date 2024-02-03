@@ -1,3 +1,5 @@
+
+
 import styles from './Sidebar.module.css';
 
 export function Sidebar(){
@@ -12,6 +14,7 @@ export function Sidebar(){
                         <span>Web Developer</span>
                    </div>
                    <footer>
+                   
                         <a href="#">Editar o seu perfil</a>
                    </footer>
          </aside>
